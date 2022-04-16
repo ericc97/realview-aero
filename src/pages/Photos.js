@@ -68,7 +68,7 @@ const Photos = () => {
 	// }
 	
 	return (
-		<main className='text-center mx-3 mt-12 sm:mx-8  object-none lg: p-5 '>
+		<main className='text-center mx-3 mt-12  sm:mx-8 sm:object-contain lg: p-5 '>
 			<Carousel>
 				{photoArr.photos.map((photo, index) => {
 					return(
@@ -76,7 +76,7 @@ const Photos = () => {
 						className=' '>
 							<div>
 								<h1 className=' mb-6'>{photo.title}</h1>
-								<img src={photo.image} alt={photo.name} className='h-96  '>
+								<img src={photo.image} alt={photo.name} className='h-96 w-full object-cover hover:object-scale-down'>
 								</img>
 							</div>
 
