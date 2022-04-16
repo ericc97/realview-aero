@@ -66,7 +66,7 @@ const Contact = () => {
 	};
 
 	return (
-		<main className='mx-3 mt-12 sm:mx-8 flex flex-wrap lg:flex-nowrap p-5 border-4 rounded-lg border-blue-header'>
+		<main className='mx-3 mt-12 sm:mx-8 flex flex-wrap lg:flex-nowrap p-5 border-4 rounded-lg border-mocha'>
 			<form ref={form} onSubmit={handleContact} className='sm:ml-5 w-full'>
 				<div className='mb-1'>
 					Enter Your Name: 

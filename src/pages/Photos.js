@@ -25,12 +25,32 @@ const Photos = () => {
 			{
 				name: 'The Dover',
 				title: 'The Dover',
+				image: 'dover1.png'
+			},
+			{
+				name: 'The Dover',
+				title: 'The Dover',
 				image: 'dover2.png'
 			},
 			{
 				name: 'The Dover',
 				title: 'The Dover',
 				image: 'dover3.png'
+			},
+			{
+				name: 'The Dover',
+				title: 'The Dover',
+				image: 'dover4.png'
+			},
+			{
+				name: 'The Dover',
+				title: 'The Dover',
+				image: 'dover5.png'
+			},
+			{
+				name: 'The Dover',
+				title: 'The Dover',
+				image: 'dover6.png'
 			},
 			{
 				name: 'titans',
@@ -48,7 +68,7 @@ const Photos = () => {
 	// }
 	
 	return (
-		<main className='mt-6 ml-80 text-center mr-80  '>
+		<main className='text-center mx-3 mt-12 sm:mx-8  object-none lg: p-5 '>
 			<Carousel>
 				{photoArr.photos.map((photo, index) => {
 					return(

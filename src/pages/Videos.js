@@ -9,29 +9,39 @@ const Videos = () => {
 	const [ videoArr ] = useState({
 		videos: [
 			{
-				name: 'Colorado Video 1',
+				name: 'New Mexico Video 1',
 				title: 'New Mexico BLM Land',
 				src: 'rado1.mp4'
 			},
 			{
-				name: 'Batman Building',
-				title: 'Batman Building',
-				image: 'batman1.png'
+				name: 'Colorado Video 1',
+				title: 'Bella Vista, Colorado',
+				src: 'rado2.mp4'
 			},
 			{
-				name: 'The Dover',
-				title: 'The Dover',
-				image: 'dover2.png'
+				name: 'Colorado Video 2',
+				title: 'Colorado',
+				src: 'rado3.mp4'
 			},
 			{
-				name: 'The Dover',
-				title: 'The Dover',
-				image: 'dover3.png'
+				name: 'Colorado Video 3',
+				title: 'Colorado',
+				src: 'rado4.mp4'
 			},
 			{
-				name: 'titans',
-				title: 'Titans',
-				src: 'titans.png'
+				name: 'Austin Video 1',
+				title: '360 Bridge, Austin Texas',
+				src: 'austin1.mp4'
+			},
+			{
+				name: 'Austin Video 1',
+				title: 'Downtown, Austin Texas',
+				src: 'austin2.mp4'
+			},
+			{
+				name: 'Artists Point',
+				title: 'Fayetteville Arkansas',
+				src: 'Artists point.mp4'
 			}
 			
 		]
@@ -44,7 +54,7 @@ const Videos = () => {
 	// }
 	
 	return (
-		<main className='mt-6 ml-80 text-center mr-80'>
+		<main className='text-center mx-3 mt-12 sm:mx-8  object-none lg: p-5  '>
 			<Carousel>
 				{videoArr.videos.map((video, index) => {
 					return(
@@ -55,7 +65,7 @@ const Videos = () => {
 								<h1 className='mb-6'>{video.title}</h1>
 								<ReactPlayer 
 									url={video.src}
-									playing={true}
+									playing={false}
 									controls={true}
 								/>
 								
