@@ -38,11 +38,11 @@ const Videos = () => {
 				title: 'Downtown, Austin Texas',
 				src: 'austin2.mp4'
 			},
-			{
-				name: 'Artists Point',
-				title: 'Fayetteville Arkansas',
-				src: 'Artists point.mp4'
-			}
+			// {
+			// 	name: 'Artists Point',
+			// 	title: 'Fayetteville Arkansas',
+			// 	src: 'Artists point.mp4'
+			// }
 			
 		]
 	});
